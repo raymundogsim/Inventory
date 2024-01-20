@@ -4,7 +4,7 @@ import DefaultLayout from "../components/DefaultLayout";
 const ItemPage = () => {
   return (
     <DefaultLayout>
-      <h1>Item List</h1>
+      <h1>mga Baligya</h1>
     </DefaultLayout>
   );
 };

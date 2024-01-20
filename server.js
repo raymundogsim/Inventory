@@ -22,7 +22,9 @@ app.use(morgan("dev"));
 
 //routes
 app.use("/api/items", require("./routes/itemRoutes"));
-
+//app.get("/", (req, res) => {
+//  res.send("<h1>POS BACKEND</h1>");
+//});
 //port
 const PORT = process.env.PORT || 8080;
 
@@ -30,3 +32,4 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server Running On Port ${PORT}`.bgCyan.white);
 });
+

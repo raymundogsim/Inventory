@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
+const dotanv = require("dotenv");
 const connectDb = require("./config/config");
 const itemModel = require("./models/itemModel");
 const items = require("./utils/data");
 require("colors");
 //config
-dotenv.config();
+dotanv.config();
 connectDb();
 
 //function seeder
